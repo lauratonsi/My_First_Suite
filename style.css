@@ -1,0 +1,61 @@
+
+/* Font e colori base */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #4b0082, #000000);
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Sezioni */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Titoli sezioni */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #a770ff;
+}
+
+/* Spotify responsive */
+iframe {
+    margin-top: 20px;
+    border: none;
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
