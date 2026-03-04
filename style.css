@@ -125,6 +125,18 @@ iframe {
         inset 0 0 25px rgba(110, 50, 255, 0.15);
 }
 
+.insta-link {
+    color: #a770ff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.insta-link:hover {
+    text-shadow: 0 0 10px #a770ff, 0 0 20px #6e32ff;
+    color: #ffffff;
+}
+
 /* Footer */
 footer {
     text-align: center;
