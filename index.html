@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -9,6 +8,7 @@
     <!-- Collegamento al CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
@@ -16,19 +16,27 @@
         <p>DJ • Producer • Sound Explorer</p>
     </header>
 
+    <!-- HERO TESTUALE (prima sezione) -->
     <section class="hero">
         <h2>Benvenuti nel mondo di Holy Priest</h2>
         <p>Atmosfere, vibrazioni e ritmi che accendono la notte.</p>
     </section>
 
-    <section class="music">
-        <h2>Music & Releases</h2>
-        <p>Ascolta gli ultimi brani e rimani aggiornato sulle prossime uscite.</p>
+    <!-- HERO CON IMMAGINE CENTRATA -->
+    <section class="hero">
+        <img src="cover.jpg" alt="cover image" class="cover-img">
 
-        <!-- Esempio Embed Spotify -->
+        <div class="hero-text">
+            <h2>Holy Priest</h2>
+            <p>DJ • Producer • Live Performer</p>
+        </div>
+    </section>
+
+    <!-- SPOTIFY EMBED -->
+    <section class="music">
         <iframe style="border-radius:12px"
             src="https://open.spotify.com/embed/artist/XXXXXXX"
-            width="100%" height="380" frameBorder="0"
+            width="100%" height="380" frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
         </iframe>
     </section>
